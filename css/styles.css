@@ -6,21 +6,25 @@
   text-decoration: none; }
 
 .container {
-  width: 100vw;
-  height: 100vh; }
+  overflow: hidden;
+  width: 100%; }
 
-#splash-container {
+.splash-container {
   box-sizing: border-box;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   padding: 5vh 10vw 5vh 10vw;
   display: flex; }
 
-#splash-text {
+.splash-text {
   margin: auto;
   font-family: "Oswald", "Monospace";
   text-align: center;
   font-size: 10.5vw;
   user-select: none; }
+
+#container-2 {
+  background-color: #942626;
+  color: #ffffff; }
 
 /*# sourceMappingURL=styles.css.map */
